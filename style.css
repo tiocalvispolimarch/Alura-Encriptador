@@ -1,19 +1,23 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    /* Encriptador - 1 Desktop */
-
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-
-    /* Light blue/light-blue-100 */
-
-    background: #F3F5FC;
+   
 }
 
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
+}
+
+.principal{
+     /* Encriptador - 1 Desktop */
+
+     position: relative;
+     width: 1440px;
+     height: 1024px;
+ 
+     /* Light blue/light-blue-100 */
+ 
+     background: #F3F5FC;
 }
 
 .input-padron{

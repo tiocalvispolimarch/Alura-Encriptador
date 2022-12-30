@@ -7,10 +7,7 @@ header {
     background-color: #BBBBBB;
     padding: 20px 0;
 }
-.dimensiones{
-    width: 940px;
-    height: 1024px;
-}
+
 
 
 .principal{
@@ -65,7 +62,7 @@ resize: none;
 position: absolute;
 width: 656px;
 height: 704px;
-left: 240px - 100px;
+left: 240px ;
 top: 121px;
 
 font-family: 'Inter';

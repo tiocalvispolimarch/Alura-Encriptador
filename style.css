@@ -24,7 +24,7 @@ header {
 
 .cuadrado_Texto_encryptado{
 position: absolute;
-width: 400px;
+width: 415px;
 height: 553px;
 left: 818px;
 top: 29px;
@@ -78,3 +78,17 @@ background: #F3F5FC;
   
 }
 
+.indicacion{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 252px;
+height: 18px;
+left: 99px;
+top: 459px;
+
+}

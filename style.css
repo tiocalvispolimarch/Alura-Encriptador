@@ -29,7 +29,7 @@ header {
 position: absolute;
 width: 400px;
 height: 944px;
-left: 1000px;
+left: 1000px - 200px;
 top: 40px;
 
 /* White */
@@ -46,7 +46,7 @@ resize: none;
 position: absolute;
 width: 336px;
 height: 781px;
-left: 1032px;
+left: 1032px - 200px;
 top: 72px;
 
 font-family: 'Inter';
@@ -65,7 +65,7 @@ resize: none;
 position: absolute;
 width: 656px;
 height: 704px;
-left: 240px;
+left: 240px - 100px;
 top: 121px;
 
 font-family: 'Inter';

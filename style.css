@@ -116,3 +116,27 @@ top: 459px;
     order: 0;
     flex-grow: 0;
 }
+
+
+.Botton_copiar{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+position: absolute;
+width: 336px;
+height: 67px;
+left: 850px;
+top: 493px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+}

@@ -19,7 +19,7 @@ header {
  
      /* Light blue/light-blue-100 */
  
-     background: #F3F5FC;
+     background: #f0b2e0;
 }
 
 .cuadrado_Texto_encryptado{
@@ -39,42 +39,44 @@ border-radius: 32px;
 }
 
 .Text_encryptado{
-resize: none;
-position: absolute;
-width: 349px;
-height: 408px;
-left: 850px;
-top: 64px;
+    border: 0;
+    resize: none;
+    position: absolute;
+    width: 349px;
+    height: 408px;
+    left: 850px;
+    top: 64px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-/* or 36px */
-/* Gray/gray-400 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    /* Gray/gray-400 */
 
-color: #495057;
+    color: #495057;
 }
 
 .Texto{
-resize: none;
-position: absolute;
-width: 656px;
-height: 356px;
-left: 99px;
-top: 67px;
+    border: 0;
+    resize: none;
+    position: absolute;
+    width: 656px;
+    height: 356px;
+    left: 99px;
+    top: 67px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 150%;
-/* or 48px */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
 
 
-color: #0A3871;
-background: #F3F5FC;
+    color: #0A3871;
+    background: #F3F5FC;
   
 }
 

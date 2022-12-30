@@ -21,6 +21,7 @@ header {
 }
 
 .Text_encryptado{
+resize: none;
     /* Rectangle 1 */
 position: absolute;
 width: 400px;
@@ -38,6 +39,7 @@ border-radius: 32px;
 }
 
 .Texto{
+resize: none;
 position: absolute;
 width: 656px;
 height: 704px;

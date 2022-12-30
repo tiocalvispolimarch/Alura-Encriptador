@@ -23,19 +23,19 @@ header {
 }
 
 .cuadrado_Texto_encryptado{
-position: absolute;
-width: 415px;
-height: 553px;
-left: 818px;
-top: 29px;
+    position: absolute;
+    width: 415px;
+    height: 553px;
+    left: 818px;
+    top: 29px;
 
-/* White */
+    /* White */
 
-background: #FFFFFF;
-/* shadow */
+    background: #FFFFFF;
+    /* shadow */
 
-box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
 }
 
 .Text_encryptado{
@@ -82,17 +82,78 @@ border-radius: 32px;
 
 .indicacion{
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 8px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
 
-position: absolute;
-width: 252px;
-height: 18px;
-left: 99px;
-top: 459px;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 99px;
+    top: 459px;
 
+}
+
+
+.Botton_copiar{
+    box-sizing: border-box;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 850px;
+    top: 493px;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.Texto_botton{
+    width: 288px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.cuadrado_Botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
 }
 
 .Encriptar_Botton{
@@ -117,49 +178,31 @@ top: 459px;
     flex-grow: 0;
 }
 
-
-.Botton_copiar{
+.Desencriptar_Botton{
     box-sizing: border-box;
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 24px;
-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
 
-position: absolute;
-width: 336px;
-height: 67px;
-left: 850px;
-top: 493px;
+    width: 328px;
+    height: 67px;
 
-/* Dark blue/dark-blue-300 */
+    /* Light gray */
 
-border: 1px solid #0A3871;
-border-radius: 24px;
-}
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
 
-.Texto_botton{
-width: 288px;
-height: 19px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
+    /* Inside auto layout */
 
-/* Dark blue/dark-blue-300 */
-
-color: #0A3871;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }

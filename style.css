@@ -9,7 +9,7 @@ header {
 }
 .dimensiones{
     width: 1440px;
-    height: 1024px;
+    
 }
 
 
@@ -17,7 +17,7 @@ header {
      /* Encriptador - 1 Desktop */
 
      position: relative;
-     width: 1440px;
+     width: 1440px - 200px;
      height: 1024px;
  
      /* Light blue/light-blue-100 */
@@ -28,7 +28,7 @@ header {
 .cuadrado_Texto_encryptado{
 position: absolute;
 width: 400px;
-height: 944px;
+height: 944px - 200px;
 left: 1000px;
 top: 40px;
 
@@ -44,7 +44,7 @@ border-radius: 32px;
 .Text_encryptado{
 resize: none;
 position: absolute;
-width: 336px;
+width: 336px - 200px;
 height: 781px;
 left: 1032px;
 top: 72px;
@@ -63,7 +63,7 @@ color: #495057;
 .Texto{
 resize: none;
 position: absolute;
-width: 656px;
+width: 656px - 200px;
 height: 704px;
 left: 240px;
 top: 121px;

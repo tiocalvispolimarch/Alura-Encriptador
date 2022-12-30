@@ -26,7 +26,7 @@ header {
 position: absolute;
 width: 400px;
 height: 944px;
-left: 1000px - 200px;
+left: 1000px;
 top: 40px;
 
 /* White */
@@ -43,7 +43,7 @@ resize: none;
 position: absolute;
 width: 336px;
 height: 781px;
-left: 1032px - 200px;
+left: 1032px;
 top: 72px;
 
 font-family: 'Inter';
@@ -75,6 +75,6 @@ line-height: 150%;
 
 color: #0A3871;
 background: #F3F5FC;
-
+  
 }
 

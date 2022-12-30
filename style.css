@@ -25,9 +25,9 @@ header {
 .cuadrado_Texto_encryptado{
 position: absolute;
 width: 400px;
-height: 772px;
+height: 553px;
 left: 818px;
-top: 20px;
+top: 29px;
 
 /* White */
 
@@ -42,7 +42,7 @@ border-radius: 32px;
 resize: none;
 position: absolute;
 width: 349px;
-height: 566px;
+height: 408px;
 left: 850px;
 top: 64px;
 
@@ -61,9 +61,9 @@ color: #495057;
 resize: none;
 position: absolute;
 width: 656px;
-height: 527px;
+height: 356px;
 left: 99px;
-top: 103px;
+top: 67px;
 
 font-family: 'Inter';
 font-style: normal;

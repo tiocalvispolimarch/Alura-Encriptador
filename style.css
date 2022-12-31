@@ -166,16 +166,9 @@ header {
     width: 328px;
     height: 67px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-
 /* White */
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 
     /* Dark blue/dark-blue-300 */
@@ -188,6 +181,29 @@ color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.Texto_Encriptar_Botton{
+    width: 280px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
 }
 
 .Desencriptar_Botton{

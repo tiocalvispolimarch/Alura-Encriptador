@@ -257,6 +257,6 @@ header {
     flex-grow: 1;
 }
 
-.indicaciones:before{
+.indicacion:before{
     content: ⚠;
 }

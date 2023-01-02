@@ -167,6 +167,12 @@ header {
     flex-grow: 0;
 }
 
+.Encriptar_Botton:hover{
+    background: #447ec6;
+    transform: scale(1.2);
+}
+
+
 .Texto_Encriptar_Botton{
     width: 280px;
     height: 19px;
@@ -257,15 +263,15 @@ header {
 }
 
 .imagen-advertencia{
-width: 16px;
-height: 16px;
+    width: 16px;
+    height: 16px;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 
@@ -277,7 +283,7 @@ flex-grow: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 150%;
     /* identical to box height, or 18px */
     

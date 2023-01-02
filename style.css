@@ -250,10 +250,13 @@ header {
 
     color: #0A3871;
 
-
     /* Inside auto layout */
 
     flex: none;
     order: 0;
     flex-grow: 1;
+}
+
+.indicacion::before{
+    content: ⚠;
 }

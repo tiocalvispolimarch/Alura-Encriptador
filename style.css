@@ -100,8 +100,14 @@ header {
 
     border: 1px solid #0A3871;
     border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
 }
 
+.Botton_copiar:hover{
+    background: #4f8ee0;
+    transform: scale(1.06);
+}
 .Texto_botton{
     width: 288px;
     height: 19px;

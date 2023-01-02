@@ -165,6 +165,8 @@ header {
     flex: none;
     order: 0;
     flex-grow: 0;
+    transition: 1s all;
+    cursor: pointer;
 }
 
 .Encriptar_Botton:hover{

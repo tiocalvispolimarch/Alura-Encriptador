@@ -270,7 +270,7 @@ header {
     gap: 8px;
 
     position: absolute;
-    width: 252px;
+    
     height: 18px;
     left: 99px;
     top: 459px;
@@ -292,7 +292,7 @@ header {
 
 
 .indicacion{
-    width: 205px;
+    
     height: 18px;
     
     font-family: 'Inter';

@@ -225,6 +225,13 @@ header {
     flex: none;
     order: 1;
     flex-grow: 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Desencriptar_Botton:hover{
+    background: #4f8ee0;
+    transform: scale(1.06);
 }
 
 .Texto_Desencriptar_Botton{

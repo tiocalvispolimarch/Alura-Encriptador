@@ -257,3 +257,15 @@ header {
     flex-grow: 1;
 }
 
+
+.imagen-advertencia{
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

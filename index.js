@@ -2,7 +2,6 @@ var Text_encryptado = document.getElementById('Text_encryptado');
 
 
 
-Text_encryptado.value += 'Appended text';
 
 const btn = document.getElementById('Encryptar');
 

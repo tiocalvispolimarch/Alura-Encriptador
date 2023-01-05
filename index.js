@@ -1,9 +1,10 @@
-const textarea = document.getElementById('message');
+var Text_encryptado = document.getElementById('Text_encryptado');
 
 
-textarea.value += 'Appended text';
 
-const btn = document.getElementById('btn');
+Text_encryptado.value += 'Appended text';
+
+const btn = document.getElementById('Encryptar');
 
 
 btn.addEventListener('click', function handleClick() {

@@ -8,7 +8,7 @@ const btn = document.getElementById('Encryptar');
 
 
 btn.addEventListener('click', function handleClick() {
-  textarea.value += 'Appended text';
+    Text_encryptado.value += 'Appended text';
 });
 
 

@@ -18,7 +18,7 @@ btn.addEventListener('click', function handleClick() {
                //}
     }
 
-    Text_encryptado.value = texto_a_encryptar;
+    Text_encryptado.value += texto_a_encryptar;
 
 });
 

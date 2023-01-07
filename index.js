@@ -9,14 +9,10 @@ var texto_copia = [];
 btn.addEventListener('click', function handleClick() {
     texto_copia = texto.value;
 
-    for(var i = 0; i < texto_copia.lenght; i++){
-               //if( texto_copia[i] == "a" )
-               //texto_a_encryptar += "ai";
-               //else{
-               texto_a_encryptar.push(texto_copia[i]);
-                              
-               //}
-    }
+
+    for (var i = 0; i < texto_copia.length; i++) {
+        texto_a_encryptar.push(texto_copia[i]);
+     } 
 
     Text_encryptado.value = texto_a_encryptar;
 

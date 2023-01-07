@@ -11,14 +11,10 @@ btn.addEventListener('click', function handleClick() {
 
     for(var i = 0; i < texto_copia.lenght; i++)
     {
-               switch(texto_copia[i]){
-               case "a": 
+               if( texto_copia[i] == "a" )
                texto_a_encryptar_encryptado += "ai";
-               break;
-
-               default: 
-               texto_a_encryptar[i] = texto_copia[i];
-               
+               else{
+               texto_a_encryptar[i] = texto_copia[i];               
                }
     }
 

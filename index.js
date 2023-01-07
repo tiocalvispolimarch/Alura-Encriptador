@@ -12,7 +12,7 @@ btn.addEventListener('click', function handleClick() {
     for(var i = 0; i < texto_copia.lenght; i++)
     {
                if( texto_copia[i] == "a" )
-               texto_a_encryptar_encryptado += "ai";
+               texto_a_encryptar += "ai";
                else{
                texto_a_encryptar[i] = texto_copia[i];               
                }

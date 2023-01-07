@@ -17,6 +17,22 @@ btn.addEventListener('click', function handleClick() {
                 texto_a_encryptar += "ai"
             break;
 
+            case "e":
+                texto_a_encryptar += "enter"
+            break;
+
+            case "i":
+                texto_a_encryptar += "imes"
+            break;
+
+            case "o":
+                texto_a_encryptar += "ober"
+            break;
+
+            case "u":
+                texto_a_encryptar += "ufat"
+            break;
+
             default:        
                 texto_a_encryptar += texto_copia[i];
         }

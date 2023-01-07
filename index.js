@@ -11,7 +11,7 @@ btn.addEventListener('click', function handleClick() {
 
 
     for (var i = 0; i < texto_copia.length; i++) {
-        texto_a_encryptar[i] = texto_copia[i];
+        texto_a_encryptar += texto_copia[i];
      } 
 
     Text_encryptado.value = texto_a_encryptar;

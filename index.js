@@ -4,9 +4,26 @@ var texto = document.getElementById('Texto');
 
 const btn = document.getElementById('Encryptar');
 
-
+var texto_a_encryptar = [];
+var texto_copia = [];
 btn.addEventListener('click', function handleClick() {
-    Text_encryptado.value += texto.value;
+    texto_copia = texto.value;
+
+    for(var i = 0; i < texto_copia.lenght; i++)
+    {
+               switch(texto_copia[i]){
+               case "a": 
+               texto_a_encryptar_encryptado += "ai";
+               break;
+
+               default: 
+               texto_a_encryptar[i] = texto_copia[i];
+               
+               }
+    }
+
+    Text_encryptado.value = texto_a_encryptar;
+
 });
 
 

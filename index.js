@@ -14,11 +14,12 @@ btn.addEventListener('click', function handleClick() {
                //if( texto_copia[i] == "a" )
                //texto_a_encryptar += "ai";
                //else{
-               texto_a_encryptar[i] = texto_copia[i];               
+               texto_a_encryptar.push(texto_copia[i]);
+                              
                //}
     }
 
-    Text_encryptado.value += texto_a_encryptar;
+    Text_encryptado.value = texto_a_encryptar;
 
 });
 

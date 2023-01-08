@@ -93,11 +93,7 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
         contador++;
 
 
-           /* case "e":
-                texto_a_encryptar += "enter"
-            break;
-
-            case "i":
+           /* case "i":
                 texto_a_encryptar += "imes"
             break;
 

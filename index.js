@@ -159,4 +159,5 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
 Copiar_botton.addEventListener('click', function handleClick() {
     Text_encryptado.select();
     document.execCommand('copy');
+    texto.value = Text_encryptado.value; 
 });

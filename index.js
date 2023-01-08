@@ -63,9 +63,9 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
             }
          }
         else{
-            contador++;
             texto_a_encryptar += texto_copia[contador];
         }
+        contador++;
 
 
            /* case "e":

@@ -86,6 +86,25 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
                 texto_a_encryptar += texto_copia[contador];
             }
          } 
+         //Desencriptar letra "i":
+        else if (letra == "i")
+        {  contador++;
+           letra  = texto_copia[contador];
+           if (letra == "m"){
+               contador++;
+               letra  = texto_copia[contador];
+               if (letra == "e"){
+                   contador++;
+                   letra  = texto_copia[contador];
+                   }
+                    if (letra == "s"){ 
+                        texto_a_encryptar += "i";
+                    }
+           }
+           else{
+               texto_a_encryptar += texto_copia[contador];
+           }
+        } 
 
         else{
             texto_a_encryptar += texto_copia[contador];
@@ -93,11 +112,7 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
         contador++;
 
 
-           /* case "i":
-                texto_a_encryptar += "imes"
-            break;
-
-            case "o":
+           /*  case "o":
                 texto_a_encryptar += "ober"
             break;
 

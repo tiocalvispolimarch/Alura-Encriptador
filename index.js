@@ -156,3 +156,7 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
 });
 
 
+Copiar_botton.addEventListener('click', function handleClick() {
+    texto.select();
+    document.execCommand('copy');
+});

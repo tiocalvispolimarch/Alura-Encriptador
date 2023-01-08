@@ -64,7 +64,7 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
             }
          }
         //Desencriptar letra "e":
-        if (letra == "e")
+        else if (letra == "e")
          {  contador++;
             letra  = texto_copia[contador];
             if (letra == "n"){

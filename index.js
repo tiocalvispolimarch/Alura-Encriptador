@@ -51,6 +51,7 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
     var contador = 0;
     while(contador<texto_copia.length){
        var letra  = texto_copia[contador];
+       //Desencriptar letra "a":
         if (letra == "a")
          {
             contador++;
@@ -62,6 +63,30 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
                 texto_a_encryptar += texto_copia[contador];
             }
          }
+        //Desencriptar letra "e":
+        if (letra == "e")
+         {  contador++;
+            letra  = texto_copia[contador];
+            if (letra == "n"){
+                contador++;
+                letra  = texto_copia[contador];
+                if (letra == "t"){
+                    contador++;
+                    letra  = texto_copia[contador];
+                    }
+                    if (letra == "e"){
+                        contador++;
+                        letra  = texto_copia[contador];
+                        }
+                        if (letra == "r"){ 
+                            texto_a_encryptar += "e";
+                            }
+            }
+            else{
+                texto_a_encryptar += texto_copia[contador];
+            }
+         } 
+
         else{
             texto_a_encryptar += texto_copia[contador];
         }

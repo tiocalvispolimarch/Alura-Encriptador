@@ -53,7 +53,8 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
        var letra  = texto_copia[contador];
         if (letra == "a")
          {
-            letra  = texto_copia[contador+1];
+            contador++;
+            letra  = texto_copia[contador];
             if (letra == "i"){
                 texto_a_encryptar += "a";
             }
@@ -62,6 +63,7 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
             }
          }
         else{
+            contador++;
             texto_a_encryptar += texto_copia[contador];
         }
 

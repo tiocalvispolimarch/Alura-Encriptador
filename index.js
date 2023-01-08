@@ -2,11 +2,14 @@ var Text_encryptado = document.getElementById('Text_encryptado');
 
 var texto = document.getElementById('Texto');
 
-const btn = document.getElementById('Encryptar');
+const Encryptar_botton = document.getElementById('Encryptar');
+const Desencryptar_botton = document.getElementById('Desencriptar');
+const Copiar_botton = document.getElementById('Copiar');
 
 var texto_a_encryptar = [];
 var texto_copia = [];
-btn.addEventListener('click', function handleClick() {
+
+Encryptar_botton.addEventListener('click', function handleClick() {
     texto_copia = texto.value;
 
 
@@ -43,4 +46,49 @@ btn.addEventListener('click', function handleClick() {
 });
 
 
-console.log("Se ha integrado exitosamente el archivo index.js")
+Desencryptar_botton.addEventListener('click', function handleClick() {
+    texto_copia = texto.value;
+    var contador = 0;
+    while(contador<texto_copia.length){
+       var letra  = texto_copia[contador];
+        if (letra == "a")
+         {
+            letra  = texto_copia[contador+1];
+            if (letra == "i"){
+                texto_a_encryptar += "a";
+            }
+            else{
+                texto_a_encryptar += texto_copia[contador];
+            }
+         }
+        else{
+            texto_a_encryptar += texto_copia[contador];
+        }
+
+
+           /* case "e":
+                texto_a_encryptar += "enter"
+            break;
+
+            case "i":
+                texto_a_encryptar += "imes"
+            break;
+
+            case "o":
+                texto_a_encryptar += "ober"
+            break;
+
+            case "u":
+                texto_a_encryptar += "ufat"
+            break;
+
+            default:        
+                texto_a_encryptar += texto_copia[i];*/
+        
+    
+    }
+    Text_encryptado.value = texto_a_encryptar;
+    texto_a_encryptar = [];
+});
+
+

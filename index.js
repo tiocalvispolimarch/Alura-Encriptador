@@ -106,24 +106,50 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
            }
         } 
 
+        //Desencriptar letra "o":
+        else if (letra == "o")
+        {  contador++;
+           letra  = texto_copia[contador];
+           if (letra == "b"){
+               contador++;
+               letra  = texto_copia[contador];
+               if (letra == "e"){
+                   contador++;
+                   letra  = texto_copia[contador];
+                   }
+                    if (letra == "r"){ 
+                        texto_a_encryptar += "o";
+                    }
+           }
+           else{
+               texto_a_encryptar += texto_copia[contador];
+           }
+        } 
+
+        //Desencriptar letra "u":
+        else if (letra == "u")
+        {  contador++;
+           letra  = texto_copia[contador];
+           if (letra == "f"){
+               contador++;
+               letra  = texto_copia[contador];
+               if (letra == "a"){
+                   contador++;
+                   letra  = texto_copia[contador];
+                   }
+                    if (letra == "t"){ 
+                        texto_a_encryptar += "u";
+                    }
+           }
+           else{
+               texto_a_encryptar += texto_copia[contador];
+           }
+        } 
+
         else{
             texto_a_encryptar += texto_copia[contador];
         }
-        contador++;
-
-
-           /*  case "o":
-                texto_a_encryptar += "ober"
-            break;
-
-            case "u":
-                texto_a_encryptar += "ufat"
-            break;
-
-            default:        
-                texto_a_encryptar += texto_copia[i];*/
-        
-    
+        contador++;     
     }
     Text_encryptado.value = texto_a_encryptar;
     texto_a_encryptar = [];

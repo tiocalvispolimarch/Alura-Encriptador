@@ -334,3 +334,7 @@ footer{
     width: 30px;
     height: 30px;
 }
+
+.logo_git:hover{
+    transform: scale(1.2);
+}

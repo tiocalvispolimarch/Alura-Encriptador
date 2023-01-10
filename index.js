@@ -52,7 +52,7 @@ Desencryptar_botton.addEventListener('click', function handleClick() {
     while(contador<texto_copia.length){
        var letra  = texto_copia[contador];
        //Desencriptar letra "a":
-        if (letra == "a")
+        if (letra == "a" )
          {
             contador++;
             letra  = texto_copia[contador];
@@ -160,4 +160,5 @@ Copiar_botton.addEventListener('click', function handleClick() {
     Text_encryptado.select();
     document.execCommand('copy');
     texto.value = Text_encryptado.value; 
+    alert("Contenido copiado al portapapeles");
 });

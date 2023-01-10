@@ -326,15 +326,23 @@ footer{
 
 .datos_del_programador{
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
 }
 
 .logo_git{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .logo_git:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
+
+.imagenes_footer {
+    display: flex;
+  }
+  
+  .imagenes_footer img:first-child {
+    margin-right: 10px;
+  }

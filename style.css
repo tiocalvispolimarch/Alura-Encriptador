@@ -316,3 +316,15 @@ header {
     flex-grow: 0;
 
 }
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}

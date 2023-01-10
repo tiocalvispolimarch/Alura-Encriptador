@@ -333,7 +333,7 @@ footer{
 .logo_git{
     width: 40px;
     height: 40px;
-    transition: 1s all;
+    transition: 500ms all;
 }
 
 .logo_git:hover{
@@ -343,7 +343,7 @@ footer{
 .logo_linke{
     width: 40px;
     height: 40px;
-    transition: 1s all;
+    transition: 500ms all;
 }
 
 .logo_linke:hover{

@@ -319,14 +319,14 @@ header {
 
 footer{
     text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,25,191,0.9528186274509804) 41%, rgba(0,212,255,1) 100%);
+    background: rgb(53,46,166);
+    background: linear-gradient(90deg, rgba(53,46,166,1) 0%, rgba(238,54,194,1) 50%, rgba(166,0,255,1) 100%);
     padding: 40px;
 }
 
-.copyright{
+.datos_del_programador{
     color: #FFFFFF;
-    font-size: 13px;
+    font-size: 18px;
     margin: 20px;
 }
  

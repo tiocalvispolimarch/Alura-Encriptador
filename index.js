@@ -1,7 +1,3 @@
-var header = document.createElement('div');
-header.innerHTML = '<div class="mario"><div class="mario-body"><div class="mario-head"><div class="mario-hat"><div class="mario-hat-top"></div><div class="mario-hat-band"></div></div><div class="mario-hair"></div><div class="mario-eyes"></div><div class="mario-nose"></div><div class="mario-mouth"></div></div><div class="mario-torso"><div class="mario-arms"><div class="mario-arm-left"></div><div class="mario-arm-right"></div></div><div class="mario-hands"><div class="mario-hand-left"></div><div class="mario-hand-right"></div></div><div class="mario-belt"></div><div class="mario-buttons"></div><div class="mario-logo"></div></div><div class="mario-legs"><div class="mario-leg-left"></div><div class="mario-leg-right"></div></div><div class="mario-feet"><div class="mario-foot-left"></div><div class="mario-foot-right"></div></div></div></div>';
-document.body.appendChild(header);
-
 var Text_encryptado = document.getElementById('Text_encryptado');
 
 var texto = document.getElementById('Texto');
